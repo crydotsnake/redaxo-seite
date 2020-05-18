@@ -1,6 +1,6 @@
 setup: false
 debug:
-    enabled: false
+    enabled: true
     throw_always_exception: false
 instname: rex20200518133126
 server: 'https://redaxo-seite.ddev.site:8443'
