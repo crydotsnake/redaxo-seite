@@ -1,2 +1,2 @@
-# redaxo-seite
+# REDAXO Seite
 Erste REDAXO Webseite
