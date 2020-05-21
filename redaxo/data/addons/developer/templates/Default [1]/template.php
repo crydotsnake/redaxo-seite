@@ -7,21 +7,39 @@
 
     <!-- CSS Dateien -->
     <link rel="stylesheet" href="resources/css/uikit.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
 
 </head>
 <body>
  
 
-<div class="navbar-collapse" id="navbar_collapse">
-    <ul class="uk-navbar-nav">
-         <?php
-            foreach (rex_category::getRootCategories(true) as $item) {
-                echo '<li class="uk-active"><a href="'.$item->getUrl().'">'.htmlspecialchars($item->getValue('name')).'</a></li>';
-            }
-       ?>
-     </ul>
-</div>
+        <!-- Navigation -->
+        <div class="navbar-collapse" id="navbar_collapse">
+            <ul class="uk-navbar-nav">
+                <?php
+                    foreach (rex_category::getRootCategories(true) as $item) {
+                        echo '<li class="uk-active"><a href="'.$item->getUrl().'">'.htmlspecialchars($item->getValue('name')).'</a></li>';
+                    }
+            ?>
+            </ul>
+        </div>
+
+        <h1 class="uk-position-top">
+            Hallo
+        </h1>
+
+        <div class="uk-container uk-position-center">
 
 
-</body>
+            REX_ARTICLE[0]
+
+        
+       </div>            
+        
+        <!-- Footer -->
+        <div id="footer">
+            <footer>Das ist mein Footer</footer>
+       </div>
+    
+    </body>
 </html>
