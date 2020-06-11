@@ -3,8 +3,8 @@ debug:
     enabled: false
     throw_always_exception: false
 instname: rex20200518133126
-server: 'https://redaxo-seite.ddev.site:8443'
-servername: 'REDAXO Demo'
+server: 'https://redaxo-seite.ddev.site:8443/'
+servername: 'REDAXO UIkit'
 error_email: demo@demo.de
 fileperm: '0664'
 dirperm: '0775'
